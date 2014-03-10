@@ -115,7 +115,6 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'mptt',
-    'djangocms_text_ckeditor',
     'cms',
     'cmsplugin_tabs',
     # Uncomment the next line to enable the admin:
