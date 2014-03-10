@@ -2,7 +2,7 @@ Tabs plugin for django-cms
 ==========================
 
 .. image:: https://travis-ci.org/nimbis/cmsplugin-tabs.png?branch=master
-  :target: https://travis-ci.org/nimbis/cmsplugin-newsplus
+  :target: https://travis-ci.org/nimbis/cmsplugin-tabs
 
 
 
