@@ -8,11 +8,11 @@ reqs = parse_requirements("requirements/common.txt")
 
 setup(
     name='cmsplugin-tabs',
-    version='0.1.2',
+    version='0.1.3',
     author='Nimbis Services Inc.',
     url='http://github.com/nimbis/cmsplugin-tabs',
     description=('A simple tabs plugin for django-cms'),
-    long_description=open('README.rst')read(),
+    long_description=open('README.rst').read(),
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
