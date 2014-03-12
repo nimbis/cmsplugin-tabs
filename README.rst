@@ -29,5 +29,8 @@ Installation
 History
 -------
 
+0.1.4:
+  * Added South migrations.
+
 0.1.0:
   * Initial commit.
