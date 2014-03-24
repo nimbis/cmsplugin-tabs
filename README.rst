@@ -4,7 +4,7 @@ Tabs plugin for django-cms
 .. image:: https://travis-ci.org/nimbis/cmsplugin-tabs.png?branch=master
   :target: https://travis-ci.org/nimbis/cmsplugin-tabs
 
-
+A tabs plugin for django-cms.
 
 Requirements
 ------------
