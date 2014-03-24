@@ -17,13 +17,11 @@ Requirements
 Installation
 ------------
 
-1. Download this package and run `python setup.py install` or add it in
-   some other way to your current PYTHON_PATH (such as pip install
-   git+https://github.com/nimbis/cmsplugin-tabs.git)
+* Run `pip install cmsplugin-tabs` or download this package and run `python setup.py install`
 
-2. Ensure that ``cmsplugin_tabs``, and ``sekizai`` are in your INSTALLED APPS
+* Ensure that `cmsplugin_tabs`, and `sekizai` are in your INSTALLED APPS
 
-3. Run ``syncdb`` or ``migrate cmsplugin_tabs`` if you have South installed.
+* Run `syncdb` or `migrate cmsplugin_tabs` if you have South installed.
 
 
 History
