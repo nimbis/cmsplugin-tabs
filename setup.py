@@ -8,7 +8,7 @@ reqs = parse_requirements("requirements/common.txt")
 
 setup(
     name='cmsplugin-tabs',
-    version='0.1.5',
+    version='0.1.6',
     author='Nimbis Services, Inc.',
     author_email='devops@nimbisservices.com',
     url='http://github.com/nimbis/cmsplugin-tabs',
