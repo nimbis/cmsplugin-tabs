@@ -10,6 +10,7 @@ setup(
     name='cmsplugin-tabs',
     version='0.1.5',
     author='Nimbis Services Inc.',
+    author_email='devops@nimbisservices.com',
     url='http://github.com/nimbis/cmsplugin-tabs',
     description=('A simple tabs plugin for django-cms'),
     long_description=open('README.rst').read(),
