@@ -4,6 +4,10 @@ Tabs plugin for django-cms
 .. image:: https://travis-ci.org/nimbis/cmsplugin-tabs.png?branch=master
   :target: https://travis-ci.org/nimbis/cmsplugin-tabs
 
+.. image:: https://coveralls.io/repos/nimbis/cmsplugin-tabs/badge.png?branch=master
+  :target: https://coveralls.io/r/nimbis/cmsplugin-tabs?branch=master
+
+
 A tabs plugin for django-cms.
 
 Requirements
