@@ -115,7 +115,9 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'mptt',
+    'sekizai',
     'cms',
+    'menus',
     'cmsplugin_tabs',
     # Uncomment the next line to enable the admin:
     # 'django.contrib.admin',
