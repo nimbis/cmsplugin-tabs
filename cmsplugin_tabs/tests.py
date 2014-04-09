@@ -13,5 +13,5 @@ class TabsTest(TestCase):
         self.header = TabHeader()
 
     def test_plugin(self):
-        self.assertEquals(self.header.__unicode__(), "0 tabs")
-        self.assertEquals(self.tab.__unicode__(), "Test Tab")
+        self.assertEquals(unicode(self.header), "0 tabs")
+        self.assertEquals(unicode(self.tab), "Test Tab")
