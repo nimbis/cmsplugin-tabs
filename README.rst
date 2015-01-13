@@ -13,6 +13,7 @@ A tabs plugin for django-cms.
 Requirements
 ------------
 
+* django < 1.7
 * django >= 1.5
 * django-cms
 * sekizai (only if you want to use the included template)
@@ -30,6 +31,9 @@ Installation
 
 History
 -------
+
+0.1.7:
+  * Added session to setup.py.
 
 0.1.4:
   * Added South migrations.
