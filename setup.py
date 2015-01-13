@@ -2,13 +2,14 @@
 
 from setuptools import find_packages, setup
 from pip.req import parse_requirements
+from uuid import uuid1
 
 # parse requirements
-reqs = parse_requirements("requirements/common.txt")
+reqs = parse_requirements("requirements/common.txt", session=uuid1())
 
 setup(
     name='cmsplugin-tabs',
-    version='0.1.6',
+    version='0.1.7',
     author='Nimbis Services, Inc.',
     author_email='devops@nimbisservices.com',
     url='http://github.com/nimbis/cmsplugin-tabs',
