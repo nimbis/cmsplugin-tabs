@@ -1,19 +1,14 @@
 #!/usr/bin/env python
 
 from setuptools import find_packages, setup
-from pip.req import parse_requirements
-from uuid import uuid1
-
-# parse requirements
-reqs = parse_requirements("requirements/common.txt", session=uuid1())
 
 setup(
     name='cmsplugin-tabs',
-    version='0.1.9',
+    version='0.1.10',
     author='Nimbis Services, Inc.',
     author_email='devops@nimbisservices.com',
     url='http://github.com/nimbis/cmsplugin-tabs',
-    description=('A simple tabs plugin for django-cms'),
+    description='A simple tabs plugin for django-cms',
     long_description=open('README.rst').read(),
     packages=find_packages(),
     include_package_data=True,
@@ -28,5 +23,9 @@ setup(
         'Programming Language :: Python',
         'Framework :: Django',
     ],
-    install_requires=[str(x).split(' ')[0] for x in reqs]
+    install_requires=[
+        'Django',
+        'django-cms',
+        'django-sekizai',
+    ],
 )
