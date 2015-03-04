@@ -15,8 +15,10 @@ Requirements
 
 * django
 * django-cms
-* sekizai (only if you want to use the included template)
-* bootstrap (only if you want to use the included template)
+
+If you want to use the included template, the following are also required:
+* sekizai
+* bootstrap
 
 Installation
 ------------
@@ -31,19 +33,23 @@ Installation
 History
 -------
 
+0.1.10:
+
+    * Removing pip requirement from setup.py
+
 0.1.9:
 
-  * Updated migrations to Django 1.7
+    * Updated migrations to Django 1.7
 
 0.1.7:
 
-  * Added session to setup.py.
+    * Added session to setup.py.
 
 0.1.4:
 
-  * Added South migrations.
+    * Added South migrations.
 
 0.1.0:
 
-  * Initial commit.
+    * Initial commit.
 
