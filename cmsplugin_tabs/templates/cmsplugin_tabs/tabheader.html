@@ -3,7 +3,18 @@
 {% block content %}
 {% addtoblock "js" %}
 <script type="text/javascript">
-  $(function(){$("#tab-{{ instance.id }} a:first").tab('show')});
+  $(document).ready(function() {
+    // Choose the first tab (for no match)
+    $("#tab-{{ instance.id }} a:first").tab('show');
+
+    // get ALL THE TABS, match against #whatever
+    $("#tab-{{ instance.id }} a").each(function(i){
+        if ($(this).text().toLowerCase() == location.hash.substring(1).toLowerCase()){
+            $(this).tab('show');
+            return false;
+        }
+    });
+  });
 </script>
 {% endaddtoblock %}
 {% endblock %}
