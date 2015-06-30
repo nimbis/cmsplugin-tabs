@@ -9,3 +9,4 @@ _build
 .DS_Store
 dist/
 build/
+flake8.log

@@ -33,6 +33,10 @@ Installation
 History
 -------
 
+0.1.11:
+
+    * Add ability to auto-select a tab based on #fragment in URL
+
 0.1.10:
 
     * Removing pip requirement from setup.py
