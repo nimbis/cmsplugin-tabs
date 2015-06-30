@@ -24,6 +24,10 @@ PEP8_OPTS=--repeat --exclude=static,migrations,south_migrations,js,doc --show-so
 pep8:
 	pep8 $(PEP8_OPTS) .
 
+FLAKE8_OPTS = --max-complexity 10 --exclude='migrations,south_migrations,doc'
+flake8: check-venv
+	flake8 $(FLAKE8_OPTS) . | tee flake8.log
+
 #
 # unit tests
 #

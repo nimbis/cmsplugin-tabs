@@ -1,4 +1,3 @@
-from django.contrib import admin
 from cms.plugin_pool import plugin_pool
 from cms.plugin_base import CMSPluginBase
 from cmsplugin_tabs.models import TabHeader, Tab
