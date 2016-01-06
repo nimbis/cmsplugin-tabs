@@ -1,11 +1,10 @@
-Tabs plugin for django-cms
+cmsplugin-tabs
 ==========================
 
-.. image:: https://travis-ci.org/nimbis/cmsplugin-tabs.png?branch=master
-  :target: https://travis-ci.org/nimbis/cmsplugin-tabs
+[![Build Status](https://travis-ci.org/nimbis/cmsplugin-tabs.svg?branch=master)](https://travis-ci.org/nimbis/cmsplugin-tabs)
 
-.. image:: https://coveralls.io/repos/nimbis/cmsplugin-tabs/badge.png?branch=master
-  :target: https://coveralls.io/r/nimbis/cmsplugin-tabs?branch=master
+[![Coverage Status](https://coveralls.io/repos/nimbis/cmsplugin-tabs/badge.svg?branch=master&service=github)](https://coveralls.io/github/nimbis/cmsplugin-tabs?branch=master)
+
 
 
 A tabs plugin for django-cms.
@@ -28,7 +27,6 @@ Installation
 * Ensure that `cmsplugin_tabs`, and `sekizai` are in your INSTALLED APPS
 
 * Run `syncdb` or `migrate cmsplugin_tabs` if you have South installed.
-
 
 History
 -------
