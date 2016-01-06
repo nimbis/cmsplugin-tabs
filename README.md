@@ -28,6 +28,12 @@ Installation
 
 * Run `syncdb` or `migrate cmsplugin_tabs` if you have South installed.
 
+
+Contributing
+------------
+
+See the [Contributing Guidelines](CONTRIBUTING.md).
+
 History
 -------
 
