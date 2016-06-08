@@ -9,7 +9,6 @@ setup(
     author_email='devops@nimbisservices.com',
     url='http://github.com/nimbis/cmsplugin-tabs',
     description='A simple tabs plugin for django-cms',
-    long_description=open('README.rst').read(),
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
