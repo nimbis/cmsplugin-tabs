@@ -1,3 +1,1 @@
-django>=1.7,<1.8
-django-cms
-django-sekizai
+-e .
