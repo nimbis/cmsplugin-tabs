@@ -18,18 +18,19 @@
 </script>
 {% endaddtoblock %}
 {% endblock %}
-
-<ul class="nav nav-tabs" id="tab-{{ instance.id }}">
-{% for tab in instance.child_plugin_instances %}
-  <li>
-    <a href="#tab-{{ tab.id }}" data-toggle="tab">{{ tab.title }}</a>
-  </li>
-{% endfor %}
-</ul>
-<div class="tab-content">
-{% for tab in instance.child_plugin_instances %}
-  <div class="tab-pane" id="tab-{{ tab.id }}">
-    {% render_plugin tab %}
+<div id="tabs-plugin-{{ instance.id }}" class="cmsplugin-tabs-plugin">
+  <ul class="nav nav-tabs" id="tab-{{ instance.id }}">
+  {% for tab in instance.child_plugin_instances %}
+    <li>
+      <a href="#tab-{{ tab.id }}" data-toggle="tab">{{ tab.title }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+  <div class="tab-content">
+  {% for tab in instance.child_plugin_instances %}
+    <div class="tab-pane" id="tab-{{ tab.id }}">
+      {% render_plugin tab %}
+    </div>
+  {% endfor %}
   </div>
-{% endfor %}
 </div>
