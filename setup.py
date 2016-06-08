@@ -23,7 +23,7 @@ setup(
         'Framework :: Django',
     ],
     install_requires=[
-        'Django',
+        'Django<1.9',
         'django-cms',
         'django-sekizai',
     ],
