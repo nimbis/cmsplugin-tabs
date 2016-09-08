@@ -13,7 +13,7 @@ Requirements
 ------------
 
 * django
-* django-cms
+* django-cms>=3.3.1
 
 If you want to use the included template, the following are also required:
 * sekizai
